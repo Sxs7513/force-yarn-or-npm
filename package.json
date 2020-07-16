@@ -1,0 +1,17 @@
+{
+  "name": "force-yarn-or-npm",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --force yarn && node ./test/index.js"
+  },
+  "bin": {
+    "force-yarn-or-npm": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}
